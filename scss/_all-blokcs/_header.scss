@@ -1,3 +1,35 @@
 .site-header {
   padding-top: 11px;
 }
+.site-header__wrapper {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  padding-right: 56px;
+}
+.site__search--input {
+  width: 670px;
+  padding: 17px 48px;
+  background: #f8fafd;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  border: none;
+}
+.site-btn__logout {
+  position: absolute;
+  right: 10%;
+  padding: 11px 23px;
+  background: #0d75ff;
+  border-radius: 4px;
+  color: $white;
+  border: none;
+  margin-left: auto;
+}
+.site-btn__logout::before {
+  content: "";
+  background-image: url(../../img/sun.png);
+  display: inline-block;
+  position: relative;
+  background-color: red;
+}

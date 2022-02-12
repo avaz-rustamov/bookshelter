@@ -11,19 +11,26 @@
   <body>
     <header class="site-header">
       <div class="container">
-        <a href="https://bookshelter-bookstore.netlify.app/">
-          <img src="img/logo-white.svg" alt="Bookshelter Logo" />
-        </a>
+        <div class="site-header__wrapper">
+          <a
+            class="site-logo"
+            href="https://bookshelter-bookstore.netlify.app/"
+          >
+            <img src="img/logo-white.svg" alt="Bookshelter Logo" />
+          </a>
+          <!-- SEARCH  -->
+          <form action="https://htmlacademy.ru/">
+            <input
+              class="site__search--input"
+              type="search"
+              name="site__search"
+              placeholder="Search Books"
+            />
+          </form>
 
-        <!-- SEARCH  -->
-        <form action="https://htmlacademy.ru/">
-          <input
-            class="site__search--input"
-            type="search"
-            name="site__search"
-            placeholder="Search Books"
-          />
-        </form>
+          <!-- LOGOUT BUTTON  -->
+          <button class="site-btn__logout" type="submit">Logout</button>
+        </div>
       </div>
     </header>
     <main class="site-main"></main>
