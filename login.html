@@ -8,9 +8,43 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>BookShelter</title>
   </head>
-  <body>
+  <body class="login-main">
     <header class="site-header"></header>
-    <main class="site-main"></main>
+    <main class="site-main">
+      <section class="site-login">
+        <form action="" method="post">
+          <div class="container-login">
+            <div class="imgcontainer">
+              <img
+                class="login-avatar"
+                src="img/logo-white.svg"
+                alt="Site Logo"
+              />
+            </div>
+            <div class="container-input">
+              <input
+                class="login-input"
+                type="text"
+                placeholder="Username"
+                name="uname"
+                required
+              />
+              <input
+                class="login-input"
+                type="password"
+                placeholder="Password"
+                name="psw"
+                required
+              />
+              <button class="login-button" type="submit">Login</button>
+            </div>
+            <div>
+              <a class="login-psw" href="#">Forgot password?</a>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
     <footer class="site footer"></footer>
   </body>
 </html>

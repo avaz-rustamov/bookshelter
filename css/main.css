@@ -244,7 +244,7 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -288,4 +288,86 @@ img {
   display: inline-block;
   position: relative;
   background-color: red;
+}
+
+.login-main {
+  background-image: url(../img/Login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.site-login {
+  padding-top: 200px;
+}
+
+.login-avatar {
+  margin-bottom: 50px;
+}
+
+.login-input {
+  border: 1px solid #fff;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  padding: 12px 120px 12px 20px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  font-family: "Montserrat", "Arial", sans-serif;
+  padding: 13px 125px;
+  margin-top: 23px;
+  margin-bottom: 11px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0d75ff;
+  background: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.login-psw {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.site-bookmark {
+  width: 270px;
+  background-color: #ccc;
+}
+
+.site-bookmark__heading {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.site-main__grid--wrapper {
+  display: flex;
+}
+
+.container-login {
+  max-width: 300px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
