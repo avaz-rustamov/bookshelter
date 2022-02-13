@@ -393,13 +393,34 @@ img {
   display: flex;
   flex-wrap: wrap;
   background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
 }
 
 .site-grid__wrapper {
   padding: 15px;
+  margin-right: 33px;
   margin-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.site-grid__wrapper:nth-child(3) {
+  margin-right: 0;
+}
+
+.site-grid__wrapper:nth-child(6) {
+  margin-right: 0;
+}
+
+.site-grid__heading {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  max-width: 230px;
+  margin-bottom: 2px;
+}
+
+.site-grid__text {
+  max-width: 230px;
 }
 
 .site-gird__footer--bookmark {

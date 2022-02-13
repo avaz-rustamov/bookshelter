@@ -29,7 +29,7 @@ const renderBook = function (date) {
         <img class="site-grid__img" src="${book.volumeInfo.imageLinks?.smallThumbnail}" alt="Book img" width="200" height="200" />
       </div>
       <div class="site-grid__heading">${book.volumeInfo.title}</div>
-      <p class="site-grid__text">${book.authors}</p>
+      <p class="site-grid__text">${book.volumeInfo.authors}</p>
       <p class="site-grid__text--date">${book.volumeInfo.publishedDate}</p>
       <div class="site-gird__footer--bookmark">
         <button class="site-grid__footer--button--bookmark">Bookmar</button>
