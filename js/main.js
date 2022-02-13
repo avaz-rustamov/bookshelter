@@ -1,5 +1,15 @@
 "use strict";
+const localToken = window.localStorage.getItem("token");
+if (!localToken) {
+  window.location.replace("login.html");
+}
 const elSiteGrid = document.querySelector(".site-grid");
+
+const elLogoutBtn = document.querySelector(".site-btn__logout");
+elLogoutBtn.addEventListener("click", function () {
+  window.localStorage.removeItem("token");
+  window.location.replace("login.html");
+});
 
 const renderBook = function (date) {
   const html = `
