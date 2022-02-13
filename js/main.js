@@ -26,7 +26,7 @@ const renderBook = function (date) {
 
     <div class="site-grid__wrapper">
       <div class="site-grid__img--wrapper">
-        <img class="site-grid__img" src="${book.volumeInfo.imageLinks?.smallThumbnail}" alt="Book img" />
+        <img class="site-grid__img" src="${book.volumeInfo.imageLinks?.smallThumbnail}" alt="Book img" width="200" height="200" />
       </div>
       <div class="site-grid__heading">${book.volumeInfo.title}</div>
       <p class="site-grid__text">${book.authors}</p>
