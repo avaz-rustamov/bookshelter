@@ -369,8 +369,9 @@ img {
 }
 
 .site-bookmark {
-  width: 270px;
-  background-color: #ccc;
+  background-color: #fff;
+  padding: 25px;
+  margin-right: 40px;
 }
 
 .site-bookmark__heading {
@@ -378,6 +379,10 @@ img {
   line-height: 28px;
   color: #000;
   margin-bottom: 5px;
+}
+
+.site-bookmark__text {
+  width: 220px;
 }
 
 .site-main__grid--wrapper {
@@ -388,15 +393,17 @@ img {
   display: flex;
   flex-wrap: wrap;
   background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  margin-left: -33px;
 }
 
 .site-grid__wrapper {
   padding: 15px;
-  margin-right: 33px;
   margin-bottom: 30px;
+}
+
+.site-gird__footer--bookmark {
+  margin-bottom: 15px;
 }
 
 .site-grid__footer--button--bookmark {
@@ -414,7 +421,7 @@ img {
 }
 
 .site-gird__link {
-  background: #75828a;
+  background-color: #75828a;
   border-radius: 4px;
   text-decoration: none;
   padding: 10px 105px;
@@ -423,7 +430,37 @@ img {
   color: #fff;
 }
 
+.site-grid__img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.site-grid__img--wrapper {
+  margin-bottom: 35px;
+}
+
 .container-login {
   max-width: 300px;
   margin: 0 auto;
+}
+
+.site-order {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.site-order__wrapper {
+  display: flex;
+}
+
+.order-btn {
+  margin-left: auto;
+  padding: 9px 13px 9px 40px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background-color: #a6b0c3;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */

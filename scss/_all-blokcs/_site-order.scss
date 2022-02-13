@@ -1,0 +1,17 @@
+.site-order {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.site-order__wrapper {
+  display: flex;
+}
+.order-btn {
+  margin-left: auto;
+  padding: 9px 13px 9px 40px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: $white;
+  background-color: #a6b0c3;
+  border-radius: 4px;
+}
