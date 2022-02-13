@@ -24,7 +24,7 @@ if (!localToken) {
 const renderBook = function (date) {
   try {
     const books = date.items;
-    elDateCounte.textContent = books.length;
+    elDateCounte.textContent = date.totalItems;
     books.forEach((book) => {
       const html = `
 
