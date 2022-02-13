@@ -24,7 +24,7 @@ if (!localToken) {
 const renderBook = function (date) {
   try {
     const books = date.items;
-    // elDateCounte.textContent = books.totalItems;
+    elDateCounte.textContent = books.totalItems;
     books.forEach((book) => {
       const html = `
 
@@ -57,4 +57,4 @@ const getBookDate = function (book) {
     .then((date) => renderBook(date));
   return requst;
 };
-console.log(getBookDate("python"));
+console.log(getBookDate("java"));
