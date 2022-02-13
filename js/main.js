@@ -1,6 +1,9 @@
 "use strict";
 const elSiteGrid = document.querySelector(".site-grid");
 const elLogoutBtn = document.querySelector(".site-btn__logout");
+const elDateCounte = document.querySelector(".book__counter");
+const elDateSearch = document.querySelector(".site__search-input");
+
 elLogoutBtn.addEventListener("click", function () {
   window.localStorage.removeItem("token");
   window.location.replace("login.html");
@@ -21,6 +24,7 @@ if (!localToken) {
 const renderBook = function (date) {
   try {
     const books = date.items;
+    // elDateCounte.textContent = books.totalItems;
     books.forEach((book) => {
       const html = `
 
@@ -32,7 +36,7 @@ const renderBook = function (date) {
       <p class="site-grid__text">${book.volumeInfo.authors}</p>
       <p class="site-grid__text--date">${book.volumeInfo.publishedDate}</p>
       <div class="site-gird__footer--bookmark">
-        <button class="site-grid__footer--button--bookmark">Bookmar</button>
+        <button class="site-grid__bookmark">Bookmar</button>
         <button class="site-grid__footer--button">More Info</button>
       </div>
       <a href="${book.volumeInfo.previewLink}" class="site-gird__link" target="_blank">Read</a>

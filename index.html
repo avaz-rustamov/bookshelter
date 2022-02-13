@@ -20,7 +20,7 @@
           <!-- SEARCH FORM  -->
           <form action="https://htmlacademy.ru/">
             <input
-              class="site__search--input"
+              class="site__search-input"
               type="search"
               name="site__search"
               placeholder="Search Books"
@@ -42,7 +42,7 @@
             <div class="container">
               <div class="site-order__wrapper">
                 <p class="book__counter--text">
-                  Showing <span class="book__counter">18</span> Result(s)
+                  Showing <span cla ss="book__counter">0</span> Result(s)
                 </p>
                 <button class="order-btn" type="submit">Order by newest</button>
               </div>
@@ -51,15 +51,44 @@
 
           <!-- SITE GRID  -->
           <div class="site-main__grid--wrapper">
+            <!-- BOOKMARK  -->
             <div class="site-bookmark">
               <h2 class="site-bookmark__heading">Bookmarks</h2>
               <p class="site-bookmark__text">
                 If you don’t like to read, you haven’t found the right book
               </p>
+              <ul class="bookmark-list"></ul>
             </div>
 
             <!-- GRID  -->
-            <div class="site-grid"></div>
+            <div class="site-grid__main">
+              <div class="site-grid"></div>
+              <nav class="site-pagination" aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">...</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">9</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">10</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </section>

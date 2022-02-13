@@ -262,7 +262,7 @@ img {
   padding-right: 56px;
 }
 
-.site__search--input {
+.site__search-input {
   width: 670px;
   padding: 17px 48px;
   background: #f8fafd;
@@ -427,7 +427,7 @@ img {
   margin-bottom: 15px;
 }
 
-.site-grid__footer--button--bookmark {
+.site-grid__bookmark {
   padding: 10px 25px;
   background: #ffd80d;
   border-radius: 4px;
@@ -484,4 +484,8 @@ img {
   color: #fff;
   background-color: #a6b0c3;
   border-radius: 4px;
+}
+
+.book__counter--text {
+  padding-left: 295 px;
 }/*# sourceMappingURL=main.css.map */
